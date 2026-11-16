@@ -4,10 +4,10 @@ Sistema distribuido compuesto por dos microservicios independientes desarrollado
 
 ---
 
-## 1. Arquitectura General del Sistema
+## Arquitectura General del Sistema
 
 La solución `FitnessMicroservices` implementa **Clean Architecture (Arquitectura Limpia)**, asegurando que la lógica de negocio sea completamente independiente de los frameworks web y motores de base de datos mediante el principio de inversión de dependencias.
-
+```text
 FitnessMicroservices/
 ├── UserService/                         # Microservicio de Registro de Usuarios (Puerto 8081)
 │   ├── Domain/                          # Capa de Dominio (Núcleo de negocio puro)
@@ -99,7 +99,7 @@ E. Cobertura de Pruebas Unitarias (xUnit + Moq)
 4. Paso 1: Configuración de la Base de Datos
 Ejecuta el siguiente script SQL en tu instancia local de MySQL
 Nota: Verifica que el usuario y contraseña en appsettings.json (Uid=root;Pwd=root;) coincidan con tu configuración local de MySQL.
-
+```
 5. Paso 2: Compilar la Solución en Visual Studio
     1.	Abre FitnessMicroservices.sln en Visual Studio.
     2.	En el Explorador de soluciones, haz clic derecho sobre la solución $\rightarrow$ Restaurar paquetes NuGet.
@@ -135,6 +135,7 @@ A. Registrar Usuario (UserService)
   "weight": 75.5,
   "height": 1.78
 }
+
 ![alt text](image.png)
 
 Prueba de error (409 Conflict): Envía nuevamente el mismo JSON; el GlobalExceptionHandler devolverá un error 409 indicando que el usuario o correo ya está registrado.
