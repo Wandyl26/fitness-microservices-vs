@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProyectoGym\\Login\\fitness-microservices\\AuthService\\AuthService.csproj": {}
+    "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\AuthService\\AuthService.csproj": {}
   },
   "projects": {
-    "E:\\ProyectoGym\\Login\\fitness-microservices\\AuthService\\AuthService.csproj": {
+    "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\AuthService\\AuthService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProyectoGym\\Login\\fitness-microservices\\AuthService\\AuthService.csproj",
+        "projectUniqueName": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\AuthService\\AuthService.csproj",
         "projectName": "AuthService",
-        "projectPath": "E:\\ProyectoGym\\Login\\fitness-microservices\\AuthService\\AuthService.csproj",
+        "projectPath": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\AuthService\\AuthService.csproj",
         "packagesPath": "C:\\Users\\Wandyl Diaz\\.nuget\\packages\\",
-        "outputPath": "E:\\ProyectoGym\\Login\\fitness-microservices\\AuthService\\obj\\",
+        "outputPath": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\AuthService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

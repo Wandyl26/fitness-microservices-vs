@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestAuthService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b32793b273f66e4122fd893bb262669cd6b3c3b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestAuthService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestAuthService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2253,11 +2253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ProyectoGym\\Login\\fitness-microservices\\TestUserService\\TestUserService.csproj",
+      "projectUniqueName": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\TestUserService\\TestUserService.csproj",
       "projectName": "TestUserService",
-      "projectPath": "E:\\ProyectoGym\\Login\\fitness-microservices\\TestUserService\\TestUserService.csproj",
+      "projectPath": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\TestUserService\\TestUserService.csproj",
       "packagesPath": "C:\\Users\\Wandyl Diaz\\.nuget\\packages\\",
-      "outputPath": "E:\\ProyectoGym\\Login\\fitness-microservices\\TestUserService\\obj\\",
+      "outputPath": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\TestUserService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2280,8 +2280,8 @@
           "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\ProyectoGym\\Login\\fitness-microservices\\UserService\\UserService.csproj": {
-              "projectPath": "E:\\ProyectoGym\\Login\\fitness-microservices\\UserService\\UserService.csproj"
+            "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\UserService\\UserService.csproj": {
+              "projectPath": "E:\\ProyectoGym\\Login\\fitness-microservices-vs\\UserService\\UserService.csproj"
             }
           }
         }
