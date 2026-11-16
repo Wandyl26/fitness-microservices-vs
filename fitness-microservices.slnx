@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../AuthService/AuthService.csproj" />
+  <Project Path="../TestAuthService/TestAuthService.csproj" Id="23b2fbdb-a448-4aed-86be-2de2e33ad787" />
+  <Project Path="../TestUserService/TestUserService.csproj" Id="ab30bb07-d3f9-40ba-a070-02ae4adc0ce2" />
+  <Project Path="UserService.csproj" />
+</Solution>
