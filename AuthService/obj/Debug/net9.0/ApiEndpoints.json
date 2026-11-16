@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "AuthService.Presentation.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AuthService.Presentation.DTOs.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AuthService.Presentation.DTOs.LoginResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
