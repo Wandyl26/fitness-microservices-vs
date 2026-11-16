@@ -8,7 +8,6 @@ Sistema distribuido compuesto por dos microservicios independientes desarrollado
 
 La solución `FitnessMicroservices` implementa **Clean Architecture (Arquitectura Limpia)**, asegurando que la lógica de negocio sea completamente independiente de los frameworks web y motores de base de datos mediante el principio de inversión de dependencias.
 
-```text
 FitnessMicroservices/
 ├── UserService/                         # Microservicio de Registro de Usuarios (Puerto 8081)
 │   ├── Domain/                          # Capa de Dominio (Núcleo de negocio puro)
