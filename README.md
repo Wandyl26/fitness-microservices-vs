@@ -99,7 +99,7 @@ E. Cobertura de Pruebas Unitarias (xUnit + Moq)
 4. Paso 1: Configuración de la Base de Datos
 Ejecuta el siguiente script SQL en tu instancia local de MySQL
 Nota: Verifica que el usuario y contraseña en appsettings.json (Uid=root;Pwd=root;) coincidan con tu configuración local de MySQL.
-```
+
 5. Paso 2: Compilar la Solución en Visual Studio
     1.	Abre FitnessMicroservices.sln en Visual Studio.
     2.	En el Explorador de soluciones, haz clic derecho sobre la solución $\rightarrow$ Restaurar paquetes NuGet.
@@ -135,13 +135,13 @@ A. Registrar Usuario (UserService)
   "weight": 75.5,
   "height": 1.78
 }
-
+```
 ![alt text](image.png)
 
 Prueba de error (409 Conflict): Envía nuevamente el mismo JSON; el GlobalExceptionHandler devolverá un error 409 indicando que el usuario o correo ya está registrado.
 
 ![alt text](image-1.png)
-
+```text
 B. Iniciar Sesión (AuthService)
     •	Método: POST
     •	URL: http://localhost:8082/api/v1/auth/login
@@ -151,6 +151,7 @@ B. Iniciar Sesión (AuthService)
 "username": "wdiaz",
 "password": "secret123"
 }
+```
 ![alt text](image-2.png)
 
     •	Prueba de error (401 Unauthorized): Envía una contraseña incorrecta o un usuario inexistente para verificar la respuesta controlada del manejador global de excepciones.
